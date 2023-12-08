@@ -10,7 +10,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://www.google.com/','https://loginbydeepansh-mqq6mjtfh-sagardeepanshs-projects.vercel.app']
+    origin: ['http://localhost:3000', 'https://www.google.com/','https://loginbydeepansh-mqq6mjtfh-sagardeepanshs-projects.vercel.app','https://loginbydeepansh.vercel.app']
 }));
 // app.get("/:id", (req, resp) => {
     
